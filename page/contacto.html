@@ -1,0 +1,111 @@
+<!-- contacto.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Contacto - Gimnasio Sin Límites</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo2.png" width="200" height="150" class="d-inline-block align-top" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./actividades.html">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./planes.html">Planes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html   ">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Contenido de contacto -->
+    <div class="container mt-5">
+        <h2 class="text-center">Contacto</h2>
+ 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13091.986956265475!2d-56.26854988527833!3d-34.88142819749488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1d5d6ada2a345%3A0xefbe92246bc1b687!2sGimnasio%20Sin%20L%C3%ADmite!5e0!3m2!1ses!2suy!4v1699978747976!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+        <!-- Información de contacto -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4>Teléfonos de Contacto</h4>
+                <p>+598 099 221 321</p>
+                <p>+598 094 125 088</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Redes Sociales</h4>
+                <a href="#" target="_blank">Facebook</a><br>
+                <a href="#" target="_blank">Twitter</a><br>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <!-- Dirección física -->
+        <div class="mt-4">
+            <h4>Dirección Física</h4>
+            <p>Calle Estados Unidos 1712,esquina Grecia </p>
+            <p>Departamento de Montevideo, CP 12800</p>
+            <p>Uruguay</p>
+        </div>
+
+        <!-- Formulario de contacto -->
+        <div class="mt-5">
+            <h4>Contacto por Email</h4>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="enviarFormulario()">Enviar</button>
+            </form>
+        </div>
+    </div>
+    < <footer class="bg-black text-white text-center py-3">
+        <p>Síguenos en redes sociales:</p>
+        <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        <img src="../images/footer1.png" alt="Imagen en el footer" class="img-fluid footer-logo">
+
+        </footer>
+        <section class="wsp">
+            <a href="https://api.whatsapp.com/send?phone=59899221321&text=Me gustaria recibir informacion adicional.">
+                <img src="../images/wsp.png" alt="wsp logo">
+            </a>
+        </section>
+    <!-- Footer (puedes reutilizar el código del footer del archivo index.html) -->
+
+    <!-- Scripts (puedes reutilizar el código de los scripts del archivo index.html) -->
+   
+    <!-- Importa el archivo JavaScript de contacto -->
+     <!-- Scripts -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="contacto.js"></script>
+</body>
+</html>
